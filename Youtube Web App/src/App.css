@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
+* {
+  font-family: 'Indie Flower', cursive;
+}
+
+.body {
+  margin: 0px;
+}
+
+.sugg-title {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.sugg-channel {
+  font-size: 12px;
+  font-weight: 700;
+  color: grey;
+}
+
+.search-box {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
