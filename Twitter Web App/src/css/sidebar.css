@@ -1,0 +1,79 @@
+.sidebar {
+    width: 40%;
+    justify-content: flex-start;
+    margin: 11px 11px;
+    display: grid;
+}
+
+.search {
+    display:  flex;
+    align-items: center;
+    background-color: #E7EBEF;
+    padding: 0.5rem;
+    height: 3rem;
+    border-radius: 25px;
+}
+
+input[type="search"] {
+    border: none;
+    background-color: #E7EBEF;
+    padding-left: 4px;
+}
+
+.container {
+    background-color: #E7EBEF;
+    height: 33rem;
+    border-radius: 25px;
+}
+
+.trends {
+    display: flex;
+    justify-content: space-between;
+    height: 1.6rem;
+    padding: 0.6rem;
+    border-bottom: 1px solid grey;
+}
+
+.foryou {
+    padding: 0.5rem;
+    font-size: 1rem;
+    font-weight: bolder;
+}
+
+.worldwide {
+    border-bottom: 1px solid grey;
+    padding-left: 1rem;
+    height: 8rem;
+    align-items: center;
+}
+
+.worldwide > div {
+    margin: 6px 0;
+}
+
+.shows {
+    font-size: 1rem;
+    color: lightslategray;
+}
+
+.tag {
+    font-size: 1.1rem;
+    font-weight: bolder;
+}
+
+.people {
+    font-size: 1rem;
+    color: lightslategray;
+}
+
+.tweetmass {
+    font-size: 1rem;
+    color: lightslategray;
+}
+
+.more {
+    color: #0d678e;
+    padding-top: 1rem;
+    padding-left: 1rem;
+    font-size: 1.3rem;
+}

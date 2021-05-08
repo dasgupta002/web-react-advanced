@@ -1,0 +1,112 @@
+.mainsegment {
+    width: 97%;
+    display: grid;
+    margin-left: 22px;
+}
+
+.home {
+    display: flex;
+    justify-content: space-between;
+    height: 3rem;
+    align-items: center;
+}
+
+.top {
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.star {
+    margin: none;
+}
+
+.create {
+    height: 8rem;
+    display: grid;
+    background-color: white;
+    border: 1px solid grey;
+    padding: 1rem;
+}
+
+.text {
+    display: flex;
+    align-items: center;
+}
+
+input[type = "post"]{
+    height: 2rem;
+    padding-left: 11px; 
+    border: none;
+}
+
+input::placeholder {
+    font-size: 1rem;
+}
+
+.buttonbar {
+    padding-top: 44px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.icon {
+    display: flex;
+}
+
+.icon > div {
+    padding: 0 14px;
+}
+
+.tweet {
+    background-color: #1DA1F2;
+    border: none;
+    height: 2rem;
+    padding: 0 18px;
+    border-radius: 1rem;
+    font-size: 1rem;
+    color: white;
+}
+
+.posts {
+    border: 1px solid grey;
+    margin-top: 5px;
+}
+
+.tray {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem;
+}
+
+.user {
+    display: flex;
+    justify-content: space-between;
+}
+
+.user > div {
+    padding: 0 6px;
+}
+
+.name {
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+
+.twitterid {
+    font-size: 0.8rem
+}
+
+.quotes {
+    padding: 0.5rem;
+}
+
+.images {
+    padding: 0.5rem;
+}
+
+.comment {
+    display: flex;
+    justify-content: space-around;
+    height: 2rem;
+    align-items: center;
+}

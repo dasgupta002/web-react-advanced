@@ -1,0 +1,21 @@
+html {
+  font-size: 92.5%;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0%;
+  font: 1rem helvetica;
+  height: 100vh;
+}
+
+.app {
+  display: grid;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+.main {
+  display: flex;
+  margin: 12px 12px;
+}
