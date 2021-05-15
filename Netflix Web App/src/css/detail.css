@@ -1,0 +1,94 @@
+.info {
+    position: relative;
+    height: 57vh;
+    margin-top: -40px;
+}
+
+.background,
+.details,
+.shadow,
+.area,
+.image {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+}
+
+.image {
+    right: 0;
+    width: 70%;
+    height: 100%;
+    background-position: center 10%;
+    background-size: cover;
+    z-index: 1;
+}
+
+.background {
+    left: 0;
+    right: 0;
+}
+
+.shadow {
+    left: 0;
+    background: #000;
+    width: 30%;
+    z-index: 2;
+}
+
+.shadow:before {
+    content: '';
+    position: absolute;
+    z-index: 10;
+    background-image: linear-gradient(to right, #000, transparent);
+    top: 0;
+    bottom: 0;
+    left: 100%;
+    width: 275px;
+}
+
+.details {
+    left: 0;
+    right: 0;
+    height: 100%;
+    z-index: 3;
+}
+
+.container {
+    padding: 30px 70px;
+    color: wheat;
+}
+
+.title {
+    font-size: 45px;
+    color: #fff;
+    font-weight: 700;
+    display: flex;
+    margin-right: auto;
+}
+
+.description {
+    font-size: 14px;
+    color: #999;
+    margin-top: 20px;
+    width: 600px;
+    text-align: left;
+}
+
+.trailer {
+    width: 130px;
+    height: 30px;
+    background-color: #C30913;
+    display: flex;
+    margin-left: 70px;
+    margin-right: auto;
+    padding-left: 40px;
+    align-items: center;
+    outline: none;
+    border: none;
+    color: white;
+    opacity: 0.7;
+}
+
+.trailer:hover {
+    opacity: 1;
+}

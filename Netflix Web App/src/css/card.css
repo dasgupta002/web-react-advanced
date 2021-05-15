@@ -1,0 +1,11 @@
+.card {
+    width: 290px;
+    height: 160px;
+    font-size: 30px;
+    padding: 0;
+}
+
+.card img {
+    width: 100%;
+    cursor: pointer;
+}
